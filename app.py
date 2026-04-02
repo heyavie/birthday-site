@@ -61,21 +61,23 @@ img {
 /* Love letter popup */
 .popup {
     position: fixed;
-    top: 50%;
+    bottom: 20px;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: white;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.95);
     color: #333;
-    padding: 20px;
+    padding: 15px 20px;
     border-radius: 15px;
-    width: 80%;
-    max-width: 300px;
+    width: 90%;
+    max-width: 320px;
     z-index: 10;
-    transition: 0.3s;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.3s;
 }
 
 .popup.active {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translateX(-50%) translateY(0);
 }
 
 /* Hearts */
@@ -127,7 +129,7 @@ img {
     <h3>💌 For You</h3>
     <p>I just want you to know that you mean everything to me. I miss you.💖</p>
 </div>
-
+                              
 <audio autoplay loop>
 <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
 </audio>
