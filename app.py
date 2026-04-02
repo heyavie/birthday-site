@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    name = "My Bebi"  
+    name = "My Rei"  
 
     return render_template_string("""
 <!DOCTYPE html>
@@ -86,9 +86,9 @@ def home():
         Happiest birthday to the greatest man I know. 💖<br><br>
         May your year ahead be filled with love, laughter, unforgettable adventures, 
         and endless opportunities.<br><br>
-        Thank you for being such an amazing boyfriend—I’m forever grateful to have you in my life.<br><br>
-        I love you so much. 💕<br>
-        God bless you, baby.
+        Thank you for being such an amazing man—I’m forever grateful to have you in my life.<br><br>
+        I love you, always. 💕<br>
+        God bless you, bebi.
     </div>
 
     <!-- Music -->
